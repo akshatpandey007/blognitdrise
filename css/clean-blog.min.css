@@ -11,4 +11,9 @@
 .container_image_1 {
     float: right;
 }
-
+.list_page:nth-child(odd) .list_img{ 
+     float:right; 
+ }
+ .list_page:nth-child(even) .list_img{
+      float:left;
+ }
